@@ -1,0 +1,14 @@
+[
+  {
+    "functionName" : "swapExactETHForTokensSupportingFeeOnTransferTokens",
+    "methodId" : "0xb6f9de95"
+  },
+  {
+    "functionName" : "swapExactTokensForTokens",
+    "methodId" : "0x38ed1739"
+  },
+  {
+    "functionName" : "swapExactTokensForTokensSupportingFeeOnTransferTokens",
+    "methodId" : "0x5c11d795"
+  }
+]
