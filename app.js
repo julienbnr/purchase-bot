@@ -120,7 +120,7 @@ const BuyToken = async (txLP, liquidityProvidedInETH) => {
           ethers.utils.parseUnits(String(0)),
           pair,
           process.env.RECIPIENT,
-          moment().unix() + tokens.txSecondsDelay,
+          Math.floor(Date.now() / 1000) + tokens.txSecondsDelay,
           {
             gasLimit: txLP.gasLimit,
             gasPrice: txLP.gasPrice
